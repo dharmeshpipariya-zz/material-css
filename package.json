@@ -1,0 +1,39 @@
+{
+  "name": "material-css",
+  "version": "0.0.0",
+  "description": "Material CSS",
+  "author": "Dharmesh Pipariya <pipariyadharmesh@gmail.com>",
+  "homepage": "https://github.com/dharmeshpipariya/material-css",
+  "bugs": "https://github.com/dharmeshpipariya/material-css/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dharmeshpipariya/material-css.git"
+  },
+  "scripts": {
+    "build": "gulp build:components",
+    "start": "gulp default",
+    "lint": "gulp lint",
+    "deploy": "gulp deploy"
+  },
+  "keywords": [
+    "material",
+    "material design",
+    "component"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^2.18.12",
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-cache": "^0.4.6",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-if": "^2.0.2",
+    "gulp-imagemin": "^3.2.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.6.0",
+    "gulp-uglify": "^3.0.0",
+    "gulp-useref": "^3.1.2",
+    "run-sequence": "^1.2.2"
+  }
+}
